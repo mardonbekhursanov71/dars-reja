@@ -1,0 +1,49 @@
+
+🧠 Python — Qiyinroq va Mantiqiy Masalalar (Advanced)
+
+1. 🔐 Parol Yaratish Algoritmi:
+Foydalanuvchi ism, familiya, va tug‘ilgan sana kiritadi (masalan: "Ali", "Valiyev", "2001-05-21").
+- Ismdagi 1-chi va oxirgi harf olinadi
+- Familiyadagi har bir unikal undosh harf olinadi
+- Tug‘ilgan yil va kunning yig‘indisi hisoblanadi
+=> Parol: "a_i_vly_2022" ko‘rinishida bo‘lsin
+
+2. 📊 Talabalar Tahlili (dict ichida list):
+dict = {"Ali": [80, 90, 85], "Vali": [70, 65, 60], "Gul": [100, 95, 98]}
+- Har bir talabaning o‘rtacha bahosini hisoblang
+- Eng yuqori o‘rtacha olganlarni chiqaring
+- 85 dan yuqori olganlar sonini sanang
+
+3. 🧩 Unique Juftliklar:
+Listdagi juft va toq sonlardan unikal (bir xil bo‘lmagan) (juft, toq) juftliklar tuzing.
+Misol: [1, 2, 3, 4] => (2, 1), (4, 1), (2, 3), (4, 3)
+
+4. 🧠 Eng Kichik Juftlik (Set):
+Setdagi barcha 2 ta elementli juftliklardan eng kichik yig‘indili juftlikni toping.
+Masalan: {7, 2, 5, 9} => (2, 5)
+
+5. 🔄 Listni Chapga Aylantirish:
+Berilgan listdagi elementlarni 2 pozitsiyaga chapga suring.
+Input: [1, 2, 3, 4, 5] => Output: [3, 4, 5, 1, 2]
+
+6. 🧱 Murakkab So‘z Qidiruvi:
+Foydalanuvchi matn kiritadi. Har bir so‘zning faqat 1 martalik harfini toping.
+Masalan: "salom olma salat" => ['s', 'o', 'l']
+
+7. 🧠 Dict ichida Set va List tahlili:
+dict = {"a": {1, 2, 3}, "b": [2, 3, 4], "c": (3, 4, 5)}
+- Har bir qiymatda mavjud bo‘lgan element(lar)ni toping
+
+8. 🏁 Race Analyzer:
+dict = {"Ali": 120, "Vali": 135, "Sami": 110, "Jasur": 120}
+- Eng tez yugurgan sportchilar kim?
+- Nechta sportchi eng yaxshi vaqtni ko‘rsatgan?
+
+9. 📦 Inventory Tizimi:
+dict = {"non": 10, "sut": 5, "yog'": 0}
+- Foydalanuvchidan mahsulot nomi olinadi
+- Agar mavjud bo‘lsa va soni > 0 bo‘lsa => "Mavjud", aks holda "Tugagan"
+
+10. ♻️ Harflarni Aylantirish:
+Foydalanuvchi matn kiritadi. Har bir harf 1 ta keyingisiga o‘zgaradi (a → b, z → a)
+Faqat harflar o‘zgaradi, boshqa belgilar o‘zgarishi kerak emas.
